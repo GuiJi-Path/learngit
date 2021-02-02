@@ -599,7 +599,7 @@ class Model(dict, metaclass=ModelMetaclass):
 #     # 创建实例
 #     @asyncio.coroutine
 #     def test():
-#         yield from create_pool(loop=loop, host='localhost', port=3306, user='root', password='Limin123?', db='test')
+#         yield from create_pool(loop=loop, host='localhost', port=3306, user='数据库用户名', password='数据库口令', db='test')
 #         # user = User2(id=2, name='Tom', email='slysly759@gmail.com', password='12345')
 #         r = yield from User2.findAll()
 #         print(r)

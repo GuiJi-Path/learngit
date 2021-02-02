@@ -6,6 +6,7 @@ def get(path):
     def decorator(func):#装饰器GET
         @functools.warps(func)
         def wrapper(*args, **kw):
+        def wrapper(*args, **kw):
             return func(*args, **kw)
         wrapper.__method__='GET'
         wrapper.__route__=path
