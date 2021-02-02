@@ -1,5 +1,4 @@
 #coding:utf-8
-import sys
 import asyncio, logging, aiomysql
 
 def log(sql, args=()):
@@ -179,7 +178,7 @@ class Model(dict, metaclass=ModelMetaclass):
     @classmethod
     async def findAll(cls, where=None, args=None, **kw):
         'find objects by where clause'
-        sql = [cls.__selcet__]
+        sql = [cls.__select__]
         if where:
             sql.append('where')
             sql.appned(where)
