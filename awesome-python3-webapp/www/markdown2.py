@@ -2,7 +2,7 @@
 # Copyright (c) 2012 Trent Mick.
 # Copyright (c) 2007-2008 ActiveState Corp.
 # License: MIT (http://www.opensource.org/licenses/mit-license.php)
-
+# from Michael Liao's Github
 from __future__ import generators
 
 r"""A fast and complete Python implementation of Markdown.
