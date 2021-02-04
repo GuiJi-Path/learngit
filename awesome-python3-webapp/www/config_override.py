@@ -1,6 +1,6 @@
 #coding:utf-8
-# configs = {
-#     'db': {
-#         'host': '192.168.0.100'
-#     }
-# }
+configs = {
+    'db': {
+        'host': '127.0.0.1'
+    }
+}
